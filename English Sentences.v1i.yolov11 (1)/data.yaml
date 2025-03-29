@@ -1,0 +1,15 @@
+# Sign Language Detection Configuration
+# Dataset details: 5 classes for basic signs
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hello', 'Love_you', 'No', 'Thank_you', 'Yes']
+
+roboflow:
+  workspace: capstone-rs6up
+  project: english-sentences-pomoo-ojjql
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/capstone-rs6up/english-sentences-pomoo-ojjql/dataset/1
