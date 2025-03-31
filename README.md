@@ -16,8 +16,14 @@ Before running the project:
    nvidia-smi
    ```
 
-## Installation
-[Installation instructions will be added here]
+## Supported Signs
+- Hello
+- I Love You
+- No
+- Thank You
+- Yes
 
-## Usage
-[Usage instructions will be added here]
+## Setup
+1. Install dependencies: `pip install -r requirements.txt`
+2. Download the dataset from Roboflow
+3. Run training using SLD.ipynb
